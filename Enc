@@ -1505,6 +1505,7 @@ class Port:
             self.op.send(data_join)
             time.sleep(9999.0)        
 
-
-# Start the combined server
+def run_server():
+ 
 Port().runs('127.0.0.1',3000)
+run_server()
